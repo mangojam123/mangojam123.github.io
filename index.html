@@ -399,7 +399,7 @@
             </div>
             <div class="hero-text">
                 <h1>Hi, I'm Naveena!</h1>
-                <h2>Researcher & Data Scientist</h2>
+                <h2>Researcher & Data Analyst</h2>
                 <p>My research interests are human–computer interaction and cognitive systems, focusing on how people perceive, interpret, and collaborate with intelligent technologies. I'm interested in designing adaptive, context-aware systems that support effective feedback and strengthen understanding between humans and AI.</p>
                 <div class="cta-buttons">
                     <a href="#contact" class="btn btn-primary">Get in Touch</a>
@@ -472,7 +472,7 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-title">Research Volunteer, Dr. Michael Miller Yoder's Lab</div>
-                <div class="card-date">Aug 2024 – Present</div>
+                <div class="card-date">Aug 2025 – Present</div>
             </div>
             <div class="card-subtitle">University of Pittsburgh</div>
             <ul>
@@ -485,14 +485,18 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-title">Research Volunteer, Surreality Lab</div>
-                <div class="card-date">Sep 2024 – Present</div>
+                <div class="card-date">Sep 2025 – Present</div>
             </div>
             <div class="card-subtitle">University of Pittsburgh School of Medicine (UPMC)</div>
             <ul>
-                <li>Part of a neurosurgical imaging project using 5-ALA fluorescence to improve glioblastoma tumor-margin detection from intraoperative blue-light exoscope videos</li>
-                <li>Developing the segmentation pipeline for stereo blue-light exoscope videos, including blue-frame extraction and metadata generation</li>
-                <li>Using SAM2 (Segment Anything) and HSV/red-channel thresholding to remove blood, reflections, tools, and fingers to isolate clean brain-tissue regions</li>
-                <li>Preparing segmented medical-imaging outputs for AR/VR visualization workflows, including depth-aligned frame processing and 3D-ready asset generation</li>
+                <ul>
+                    <li>Part of a neurosurgical imaging project using 5-ALA fluorescence to improve glioblastoma tumor-margin detection from intraoperative blue-light exoscope videos</li>
+                    <li>Developing the segmentation pipeline for stereo blue-light exoscope videos, including blue-frame extraction and metadata generation</li>
+                    <li>Using SAM2 (Segment Anything) and HSV/red-channel thresholding to remove blood, reflections, tools, and fingers to isolate clean brain-tissue regions</li>
+                    <li>Validating segmentation robustness across variable zoom, stereo capture geometry, and challenging lighting conditions</li>
+                    <li>Preparing segmented medical-imaging outputs for AR/VR visualization workflows, including depth-aligned frame processing and 3D-ready asset generation</li>
+                </ul>
+
             </ul>
         </div>
         
@@ -501,7 +505,7 @@
         <div class="card">
             <div class="card-header">
                 <div class="card-title">Data Analyst, ROCIS Low-Cost Monitoring Project</div>
-                <div class="card-date">Jul 2024 – Present</div>
+                <div class="card-date">Jul 2025 – Present</div>
             </div>
             <div class="card-subtitle">Pittsburgh, USA</div>
             <ul>
@@ -546,65 +550,54 @@
     </section>
     
     <section id="other-experience">
-        <h2 class="section-title">Beyond Data Science and Research</h2>
-        
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">IT Help Desk, University of Pittsburgh</div>
-                <div class="card-date">Aug 2023 – Jan 2025</div>
-            </div>
-            <ul>
-                <li>Resolved over 500 IT service requests through TDX Workspace, Salesforce CRM, and Amazon Connect with a 96% resolution rate</li>
-                <li>Provided remote troubleshooting for network, OS, and software issues across Windows and macOS systems</li>
-            </ul>
+    <h2 class="section-title">Beyond Data Science and Research</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Technical Support Consultant</div>
+            <div class="card-date">Aug 2023 – Jan 2025</div>
         </div>
-        
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">PC Consultant, School of Education, University of Pittsburgh</div>
-                <div class="card-date">Jan 2025 – Aug 2025</div>
-            </div>
-            <ul>
-                <li>Delivered on-site technical support for faculty and students, maintaining over 50 classroom systems</li>
-                <li>Managed system updates, hardware diagnostics, and classroom technology using SCCM and Jamf</li>
-                <li>Strengthened technical and organizational skills that continue to inform my research and collaboration practices</li>
-            </ul>
-        </div>
-        
-        <div class="card">
-            <div class="card-header">
-                <div class="card-title">Help Desk Analyst (Temporary Contractor), UPMC</div>
-                <div class="card-date">Sep 2024 – Nov 2024</div>
-            </div>
-            <ul>
-                <li>Served on the first-wave Epic EHR go-live team supporting the hospital-wide transition from the legacy system</li>
-                <li>Handled high-volume support calls from clinical and administrative staff, consistently answering within 20 seconds with no missed calls, and resolving workflow, access, and training issues to ensure successful completion of the rollout wave</li>
-            </ul>
-        </div>
-        
-        <p style="font-size: 1rem; color: #6b6b6b; margin-top: 1.5rem; line-height: 1.8;">These roles supported me financially during graduate school and taught me how to stay organized, manage priorities, and solve problems efficiently. These experiences have strengthened the practical and interpersonal skills that will serve me well in collaborative PhD research environments.</p>
-    </section>
+        <div class="card-subtitle">University of Pittsburgh, Pittsburgh, USA</div>
+        <ul>
+            <li>Supported 500+ users by resolving network, Wi-Fi, software, and security-access issues in a remote support environment.</li>
+            <li>Managed TDX ticketing workflows with accurate documentation and timely issue resolution.</li>
+            <li>Used Salesforce CRM and Amazon Connect to track support trends and improve service efficiency.</li>
+            <li>Assisted with account provisioning, MFA configuration, and security-compliance troubleshooting.</li>
+        </ul>
+    </div>
     
-    <section id="projects">
-        <h2 class="section-title">Selected Projects</h2>
-        
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3>Speech-Based Emotion Recognition</h3>
-                <p>Developed a speech emotion recognition system using MFCC, Chroma-STFT, and spectral features, trained and evaluated on a 1,440-file emotional speech corpus. Implemented preprocessing (noise removal, stretching, pitch/shift augmentation) and built feature-extraction pipelines in Python, generating inputs for an MLP classifier. Achieved 73% classification accuracy across seven emotion classes (calm, happy, sad, angry, fearful, disgust, surprise), using optimized feature selection and model tuning. Designed end-to-end workflow covering dataset parsing, label extraction, preprocessing, feature engineering, and classifier evaluation.</p>
-            </div>
-            
-            <div class="project-card">
-                <h3>Bias and Fairness Analysis in Early Alzheimer's Detection</h3>
-                <p>Analyzed the OASIS dataset using Logistic Regression, Random Forest, XGBoost, LightGBM, and CatBoost, assessing performance with balanced accuracy and ROC-AUC. Conducted subgroup fairness analysis across gender, age, SES, education, and intersectional groups, identifying disparities including a 46.7% age-group TPR gap and 50% intersectional disparity for females aged 60–75. Applied Fairlearn's Equalized Odds and Demographic Parity mitigation, reducing demographic parity difference by 94.4% with minimal accuracy loss in selected models. Used SHAP feature attributions to confirm that core clinical variables (MMSE, Education, Age, nWBV) primarily drove predictions rather than demographic attributes.</p>
-            </div>
-            
-            <div class="project-card">
-                <h3>Predictive Modeling for Paint Popularity (PPG Industries Collaboration)</h3>
-                <p>Developed regression, decision-tree, and clustering models to analyze RGB/HSL features from PPG's historical color dataset and forecast paint-popularity trends. Engineered feature sets from 30k+ color records, performing preprocessing, color-space transformations, and exploratory analysis to identify drivers of customer preference. Evaluated models using cross-validation and metrics such as RMSE and silhouette score, generating insights on hue, saturation, and brightness patterns linked to product demand. Delivered model-based recommendations that informed PPG's design tools and supported data-driven product and marketing decisions.</p>
-            </div>
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">PC Support Specialist</div>
+            <div class="card-date">Feb 2025 – Aug 2025</div>
         </div>
-    </section>
+        <div class="card-subtitle">School of Education, University of Pittsburgh, Pittsburgh, USA</div>
+        <ul>
+            <li>Provided technical support for Windows and macOS systems, including network diagnostics, software configuration, and system troubleshooting.</li>
+            <li>Diagnosed and resolved issues with classroom AV systems, projectors, display controllers, and peripheral connectivity.</li>
+            <li>Assisted with workstation setup, OS updates, device imaging, hardware checks, and asset tracking.</li>
+            <li>Documented incidents through the ticketing system and escalated complex network or hardware issues when required.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Help Desk Analyst (Temporary Contractor), UPMC</div>
+            <div class="card-date">Sep 2025 – Nov 2025</div>
+        </div>
+        <div class="card-subtitle">University of Pittsburgh Medical Center, Pittsburgh, USA</div>
+        <ul>
+            <li>Served on the first-wave Epic EHR go-live team supporting the hospital-wide transition from the legacy system.</li>
+            <li>Handled high-volume support calls from clinical and administrative staff, consistently answering within 20 seconds with no missed calls, and resolving workflow, access, and training issues to ensure successful completion of the rollout wave.</li>
+        </ul>
+    </div>
+
+    <p style="font-size: 1rem; color: #6b6b6b; margin-top: 1.5rem; line-height: 1.8;">
+        These roles supported me financially during graduate school and taught me how to stay organized, manage priorities, and solve problems efficiently. 
+        These experiences have strengthened the practical and interpersonal skills that will serve me well in collaborative PhD research environments.
+    </p>
+</section>
+
     
     <section id="skills">
         <h2 class="section-title">Technical Skills</h2>
@@ -677,7 +670,89 @@
             <p style="font-size: 1rem; line-height: 1.8;">Outside research, I love hiking, dancing (or at least trying to), and riding motorcycles. Lately, I've been exploring how HCI principles could improve rider safety and navigation, including ideas for smart, interface-integrated helmets and companion apps. It's one of those projects that started from curiosity and something I'd happily chat about over coffee.</p>
         </div>
     </section>
-    
+    <section id="volunteer">
+    <h2 class="section-title">Volunteer Activities</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">Community Development Foundation (CDF)</div>
+            <div class="card-date">May 2024</div>
+        </div>
+        <div class="card-subtitle">Digital Skills Volunteer · Coimbatore, India</div>
+        <ul>
+            <li>Taught senior citizens safe smartphone use, UPI payments, and basic digital literacy.</li>
+            <li>Provided assistive technology support (text enlargement, voice input, screen readers) to help older adults navigate devices independently.</li>
+        </ul>
+        <p style="margin-top: 10px;">
+            <a href="https://drive.google.com/file/d/1KKCfPVrrY6HqRKJVJxmP_P2S8M4fuveR/view?usp=sharing" target="_blank" style="color:#2d5a5a; text-decoration: underline;">
+                → CDF Volunteer Certificate
+            </a>
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">JAA Rehabilitation &amp; Nursing Center</div>
+            <div class="card-date">Oct 2023 – Dec 2023</div>
+        </div>
+        <div class="card-subtitle">Community Engagement Volunteer · Pittsburgh, USA</div>
+        <ul>
+            <li>Spent time with elderly residents, answering cultural questions and offering social support.</li>
+            <li>Delivered a short presentation about Indian culture and my educational experiences.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <div class="card-title">NSS Camp, Kumaraguru College of Technology</div>
+            <div class="card-date">Jan 2020</div>
+        </div>
+        <div class="card-subtitle">Volunteer Teacher &amp; Community Support · Vadakallur, India</div>
+        <ul>
+            <li>Taught basic computer science to elementary school students in a rural village school.</li>
+            <li>Conducted household surveys on educational levels in the community.</li>
+            <li>Assisted women’s health outreach by organizing villagers for gynecology check-ups.</li>
+        </ul>
+        <p style="margin-top: 10px;">
+            <a href="https://www.instagram.com/p/B7NU-5gh1qR/?igsh=MXR1NTJjdGJzMHBuZQ" target="_blank" style="color:#2d5a5a; text-decoration: underline;">
+                → NSS (KCT) – Official Instagram Post
+            </a>
+        </p>
+    </div>
+</section>
+<div class="card">
+    <h3 style="margin-bottom: 1rem; color: #2d5a5a; font-size: 1.3rem;">References &amp; Links</h3>
+    <ul style="font-size: 1rem; line-height: 1.8;">
+        <li>Dr. Michael Miller Yoder — Faculty Website<br>
+            <a href="https://www.sci.pitt.edu/people/michael-miller-yoder" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://www.sci.pitt.edu/people/michael-miller-yoder</a>
+        </li>
+        <li>Responsible Data Science @ Pitt — Organizational Website<br>
+            <a href="https://www.datascience.pitt.edu/" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://www.datascience.pitt.edu/</a>
+        </li>
+        <li>Dr. Angela E.B. Stewart — Faculty Website<br>
+            <a href="https://www.sci.pitt.edu/people/angela-eb-stewart" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://www.sci.pitt.edu/people/angela-eb-stewart</a>
+        </li>
+        <li>Surreality Lab — Research Lab Website<br>
+            <a href="https://surreality.pitt.edu/" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://surreality.pitt.edu/</a>
+        </li>
+        <li>ROCIS — Community Air Quality Project<br>
+            <a href="https://rocis.org/" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://rocis.org/</a>
+        </li>
+        <li>Aveon Infotech — Company Website<br>
+            <a href="https://www.aveoninfotech.com/our-company.php" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://www.aveoninfotech.com/our-company.php</a>
+        </li>
+        <li>DoWhistle — Company Website<br>
+            <a href="https://www.dowhistle.com/" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://www.dowhistle.com/</a>
+        </li>
+        <li>CDF — Volunteer Certificate<br>
+            <a href="https://drive.google.com/file/d/1KKCfPVrrY6HqRKJVJxmP_P2S8M4fuveR/view?usp=sharing" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://drive.google.com/file/d/1KKCfPVrrY6HqRKJVJxmP_P2S8M4fuveR/view</a>
+        </li>
+        <li>NSS (NGO – Kumaraguru College Of Technology) — Official Instagram Page<br>
+            <a href="https://www.instagram.com/p/B7NU-5gh1qR/?igsh=MXR1NTJjdGJzMHBuZQ" target="_blank" style="color:#2d5a5a; text-decoration: underline;">https://www.instagram.com/p/B7NU-5gh1qR</a>
+        </li>
+    </ul>
+</div>
+
     <section id="contact" class="contact">
         <h2>Let's Connect</h2>
         <p style="font-size: 1.15rem; margin-bottom: 2rem; color: #4b5563; line-height: 1.7;">I'm always open to discussing research opportunities, collaborations, or just having a chat!</p>
